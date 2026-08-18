@@ -14,6 +14,7 @@ public class LoginService {
         this.loginDao = loginDao;
     }
 
-    public LoginResponse login(LoginRequest request) {
+    public User login(LoginRequest request) {
         return loginDao.findUser(request);
     }
+}

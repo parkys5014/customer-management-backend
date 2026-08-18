@@ -1,13 +1,11 @@
 package com.manage.customerManage.login.controller;
 
 import com.manage.customerManage.login.dto.LoginRequest;
-import com.manage.customerManage.login.dto.LoginResponse;
+import com.manage.customerManage.login.dto.User;
 import com.manage.customerManage.login.service.LoginService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api")
 public class LoginController {
@@ -18,7 +16,7 @@ public class LoginController {
     }
 
     @PostMapping("/login")
-    public LoginResponse login(@RequestBody LoginRequest request) {
+    public User login(@RequestBody LoginRequest request) {
         return loginService.login(request);
     }
 }
