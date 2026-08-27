@@ -6,10 +6,12 @@
 <mapper namespace="com.manage.customerManage.login.dao.LoginDao">
 
     <select id="findUser" resultType="com.manage.customerManage.login.dto.User">
-        SELECT user_id,name
+        SELECT user_id as userId,
+               password,
+               userName,
+               role
         FROM users
         WHERE user_id = #{userId}
-        AND password = #{password}
     </select>
 
 </mapper>

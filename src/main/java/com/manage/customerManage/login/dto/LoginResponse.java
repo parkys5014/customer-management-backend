@@ -1,19 +1,13 @@
 package com.manage.customerManage.login.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
 public class LoginResponse {
-    private boolean success;
-    private String message;
-
-    public LoginResponse(boolean success, String message) {
-        this.success = success;
-        this.message = message;
-    }
-
-    public boolean isSuccess() {
-        return success;
-    }
-
-    public String getMessage() {
-        return message;
-    }
+    private String accessToken;
+    private String userId;
+    private String userName;
+    private String role;
 }
