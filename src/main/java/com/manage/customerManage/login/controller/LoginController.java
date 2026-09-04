@@ -8,15 +8,18 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api")
+@RequestMapping("/managemnet")
 public class LoginController {
 
     private final LoginService loginService;
 
-    @PostMapping("/login")
-    public LoginResponse login(
-            @RequestBody LoginRequest request
-    ) {
+    @GetMapping("/login")
+    public String login() {
+        return "forward:/index.html";
+    }
+
+    @PostMapping("/loginCheck")
+    public LoginResponse login(@RequestBody LoginRequest request) {
         return loginService.login(request);
     }
 }
