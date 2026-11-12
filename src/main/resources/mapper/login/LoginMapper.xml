@@ -3,9 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.manage.customerManage.login.dao.LoginDao">
+<mapper namespace="com.manage.customermanagement.login.dao.LoginDao">
 
-    <select id="findUser" resultType="com.manage.customerManage.login.dto.User">
+    <select id="findUser" resultType="com.manage.customermanagement.login.dto.User">
         SELECT user_id as userId,
                password,
                userName,

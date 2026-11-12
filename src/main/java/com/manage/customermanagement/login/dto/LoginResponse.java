@@ -1,4 +1,4 @@
-package com.manage.customerManage.login.dto;
+package com.manage.customermanagement.login.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

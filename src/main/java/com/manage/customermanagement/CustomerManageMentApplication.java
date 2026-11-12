@@ -1,4 +1,4 @@
-package com.manage.customerManage;
+package com.manage.customermanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 @SpringBootApplication
-public class CustomerManageApplication {
+public class CustomerManageMentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CustomerManageApplication.class, args);
+		SpringApplication.run(CustomerManageMentApplication.class, args);
 	}
 
 	@GetMapping("/hello")

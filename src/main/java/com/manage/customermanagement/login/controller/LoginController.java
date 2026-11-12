@@ -1,8 +1,8 @@
-package com.manage.customerManage.login.controller;
+package com.manage.customermanagement.login.controller;
 
-import com.manage.customerManage.login.dto.LoginRequest;
-import com.manage.customerManage.login.dto.LoginResponse;
-import com.manage.customerManage.login.service.LoginService;
+import com.manage.customermanagement.login.dto.LoginRequest;
+import com.manage.customermanagement.login.dto.LoginResponse;
+import com.manage.customermanagement.login.service.LoginService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

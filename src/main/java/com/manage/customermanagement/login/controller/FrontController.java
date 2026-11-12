@@ -1,4 +1,4 @@
-package com.manage.customerManage.login.controller;
+package com.manage.customermanagement.login.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

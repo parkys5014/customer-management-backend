@@ -1,10 +1,10 @@
-package com.manage.customerManage.login.service;
+package com.manage.customermanagement.login.service;
 
-import com.manage.customerManage.login.dao.LoginDao;
-import com.manage.customerManage.login.dto.LoginRequest;
-import com.manage.customerManage.login.dto.LoginResponse;
-import com.manage.customerManage.login.dto.User;
-import com.manage.customerManage.login.jwt.JwtUtil;
+import com.manage.customermanagement.login.dao.LoginDao;
+import com.manage.customermanagement.login.dto.LoginRequest;
+import com.manage.customermanagement.login.dto.LoginResponse;
+import com.manage.customermanagement.login.dto.User;
+import com.manage.customermanagement.login.jwt.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

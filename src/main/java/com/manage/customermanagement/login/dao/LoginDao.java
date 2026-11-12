@@ -1,6 +1,6 @@
-package com.manage.customerManage.login.dao;
+package com.manage.customermanagement.login.dao;
 
-import com.manage.customerManage.login.dto.User;
+import com.manage.customermanagement.login.dto.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

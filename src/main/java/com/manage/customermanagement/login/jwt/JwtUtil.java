@@ -1,4 +1,4 @@
-package com.manage.customerManage.login.jwt;
+package com.manage.customermanagement.login.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
